@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            .contenedor
+            {
+                display: grid;
+                grid-template-rows: 100px[Line1] 100px[Line2] 100px[Line3] 100px[Line4];
+                grid-template-columns: 100px 100px 100px 100px;
+                grid-gap: 5px;
+            }
+            .contenedor-item6
+            {
+                background: blue;
+                text-align: center;
+                border: black 5px solid;
+                grid-column: 1/span 4;
+                grid-row: 1/Line2;
+            }
+            .contenedor-item2
+            {
+                background: grey;
+                text-align: center;
+                border: black 5px solid;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=devixe-width, initial-scale1.0">
+    </head>
+    <body>
+        <div class="contenedor">
+            
+            <div class="contenedor-item1"><h1>a</h1></div>
+            <div class="contenedor-item2"><h1>b</h1></div>
+            <div class="contenedor-item3"><h1>c</h1></div>
+            <div class="contenedor-item4"><h1>d</h1></div>
+            <div class="contenedor-item5"><h1>e</h1></div>
+            <div class="contenedor-item6"><h1>f</h1></div>
+            <div class="contenedor-item4"><h1>h</h1></div>
+            <div class="contenedor-item5"><h1>i</h1></div>
+            <div class="contenedor-item6"><h1>j</h1></div>
+            
+        </div>
+    </body>
+</html>
