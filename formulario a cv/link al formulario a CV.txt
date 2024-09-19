@@ -1,0 +1,3 @@
+http://www.cvform.byethost6.com (usar este link)
+Aqui esta mi trabajo profe, Github, no lee PHP por lo que no le iba a cargar, 
+entonces use byethost este lugar si carga PHP asi que aqui li funciona el formulario del CV
