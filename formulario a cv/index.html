@@ -99,30 +99,83 @@
         <div class="contendeor_de_contenidos">
             <div class="recuadro_info">    
                 <div class="contenedor">
-                    <h1>CONTACTO</h1>
-                    <li>Telefono/Celular: +51 955 124 818</li>
-                    <li>Correo: <a href="mailto:alonzo.cuela@ucsp.edu.pe">alonzo.cuela@ucsp.edu.pe</a></li>
-                    <li>Ciudad/País: AQP-Perú</li>
-                    <li>LinkedIn: <a href="https://www.linkedin.com/in/alonzo-estéfano-cuela-rodríguez-8a5886307/">LinkedIn.com/alonzo-cuela</a></li>
-                    <li>PaginaWeb Personal: <a href="https://skull33.github.io/">Skull33.github.io</a></li>
-                    <h1>IDIOMAS</h1>
-                    <li>Español: Nativo</li>
-                    <li>Ingles: FCE-B2</li>
-                    <h1>APTITUDES</h1>
-                    <li>Inteligencia emocional</li>
-                    <li>Creatividad</li>
-                    <li>Disciplina</li>
-                    <li>Puntualidad</li>
-                    <li>Trabajo en equipo</li>
-                    <h1>HABILIDADES</h1>
-                    <li>Graphic Computing</li>
-                    <li>Game Development</li>
-                    <li>Web Development</li>
-                    <li>Game Testing</li>
-                    <h1>OTROS INTERESES</h1>
-                    <li>Deportes</li>
-                    <li>Desarrollo de videojuegos</li>
-                    <li>Dibujo</li>
+                    <form action="form.php" method="post">
+                        <h1>DATOS PERSONALES</h1>
+                        <!--nombre y apellidos-->
+                        <label for="nombre">Nombre y apellidos</label><br>
+                        <input type="text" id="nombre" name="nombre" required><br><br>
+                        
+                        <!--fecha de nacimiento-->
+                        <label for="fehca_nacimiento">Fecha de Nacimiento</label><br>
+                        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br><br>
+
+                        <!--Ocupacion-->
+                        <label for="ocupacion">Ocupación</label><br>
+                        <input type="text" id="ocupacion" name="ocupacion" required><br><br>
+
+                        <h1>CONTACTO</h1>
+                        <!--Contacto (telefono y correo)-->
+                        <label for="contacto">Contacto (telefono, correo)</label><br>
+                        <input type="text" id="contacto" name="contacto" required><br><br>
+
+                        <!--Nacionalidad-->
+                        <label for="nacionalidad">Nacionalidad</label><br>
+                        <select name="nacionalidad" id="nacionalidad" required>
+                            <option value="PE">Peruano</option>
+                            <option value="CH">Chileno</option>
+                            <option value="AR">Argentino</option>
+                            <option value="MX">Mexicano</option>
+                            <option value="otro">Otro</option>
+                        </select><br><br>
+
+                        <!--Nivel de ingles-->
+                        <h1>NIVEL DE INGLES</h1>
+                        <label for="ingles">Nivel de ingles</label><br>
+                        <input type="radio" id="basic" name="ingles" value="basic">
+                        <label for="basic">Basico</label><br>
+                        <input type="radio" id="intermediate" name="ingles" value="intermediate">
+                        <label for="independiente">Intermedio</label><br>
+                        <input type="radio" id="advanced" name="ingles" value="advanced">
+                        <label for="advanced">Avanzado</label><br>
+                        <input type="radio" id="Fluid" name="ingles" value="Fluid">
+                        <label for="Fluid">Fluido</label><br><br>
+                        
+                        <!--Lenguajes de programación-->
+                        <h1>LENGUAJES DE PROGRAMACION</h1>
+                        <label for="lenguajes">Lenguajes de programación</label><br>
+                        <select id="lenguajes" name="lenguajes[]" multiple required>
+                            <option value="c">C</option>
+                            <option value="cpp">C++</option>
+                            <option value="java">Java</option>
+                            <option value="js">Java Script</option>
+                            <option value="py">Python</option>
+                            <option value="php">PHP</option>
+                            <option value="otros">Otros</option>
+                        </select><br><br>
+
+                        <!--Aptitudes-->
+                        <h1>APTITUDES</h1>
+                        <label for="aptitudes">Aptitudes</label><br>
+                        <input list="aptitudes" name="aptitud" required>
+                        <datalist id="aptitudes">
+                            <option value="Trabajo en equipo"></option>
+                            <option value="Liderazgo"></option>
+                            <option value="Comunicación"></option>
+                            <option value="Resolución de problemas"></option>
+                        </datalist><br><br>
+
+                        <!--Habilidades-->
+                        <h1>HABILIDADES</h1>
+                        <label for="habilidades">Habilidades</label><br>
+                        <input type="checkbox" id="habilidad1" name="habilidades[]" value="Programación">
+                        <label for="habilidad1">Programación</label><br>
+                        <input type="checkbox" id="habilidad2" name="habilidades[]" value="Diseño Grafico">
+                        <label for="habilidad2">Diseño Grafico</label><br>
+                        <input type="checkbox" id="habilidad3" name="habilidades[]" value="Marketing">
+                        <label for="habilidad3">Marketing</label><br><br>
+
+                        <input type="submit" value="Enviar">
+                    </form>                                       
                 </div>
             </div>
             <div class="espacio_vacio">

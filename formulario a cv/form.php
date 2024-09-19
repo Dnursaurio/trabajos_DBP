@@ -99,30 +99,67 @@
         <div class="contendeor_de_contenidos">
             <div class="recuadro_info">    
                 <div class="contenedor">
-                    <h1>CONTACTO</h1>
-                    <li>Telefono/Celular: +51 955 124 818</li>
-                    <li>Correo: <a href="mailto:alonzo.cuela@ucsp.edu.pe">alonzo.cuela@ucsp.edu.pe</a></li>
-                    <li>Ciudad/País: AQP-Perú</li>
-                    <li>LinkedIn: <a href="https://www.linkedin.com/in/alonzo-estéfano-cuela-rodríguez-8a5886307/">LinkedIn.com/alonzo-cuela</a></li>
-                    <li>PaginaWeb Personal: <a href="https://skull33.github.io/">Skull33.github.io</a></li>
-                    <h1>IDIOMAS</h1>
-                    <li>Español: Nativo</li>
-                    <li>Ingles: FCE-B2</li>
-                    <h1>APTITUDES</h1>
-                    <li>Inteligencia emocional</li>
-                    <li>Creatividad</li>
-                    <li>Disciplina</li>
-                    <li>Puntualidad</li>
-                    <li>Trabajo en equipo</li>
-                    <h1>HABILIDADES</h1>
-                    <li>Graphic Computing</li>
-                    <li>Game Development</li>
-                    <li>Web Development</li>
-                    <li>Game Testing</li>
-                    <h1>OTROS INTERESES</h1>
-                    <li>Deportes</li>
-                    <li>Desarrollo de videojuegos</li>
-                    <li>Dibujo</li>
+                    <?php
+                    if ($_SERVER["REQUEST_METHOD"] =="POST") 
+                    {
+                        //recoge los datos del formulario
+                        $nombre = $_POST["nombre"];
+                        $fecha_nacimiento = $_POST["fecha_nacimiento"];
+                        $ocupacion = $_POST["ocupacion"];
+                        $contacto = $_POST["contacto"];
+                        $nacionalidad = $_POST["nacionalidad"];
+                        $ingles = $_POST["ingles"];
+                        $lenguajes = isset($_POST["lenguajes"]) ? $_POST["lenguajes"]:[];
+                        $aptitud = $_POST["aptitud"];
+                        $habilidades = isset($_POST["habilidades"]) ? $_POST["habilidades"]:[];
+
+                        //Validamos los campós (se pude personalizar segun las necesidades del usuario)
+                        if (empty($nombre) || empty($fecha_nacimiento) || empty($ocupacion) || empty($contacto))
+                        {
+                            echo "Por favor, rellena todos los campos"; 
+                        }
+                        else
+                        {
+                            //mostrara los datos recibidos
+                            echo "<h1>DATOS PESONALES</h1>";
+                            echo "Nombre y apellidos: $nombre<br>";
+                            echo "Fecha de nacimineto: $fecha_nacimiento<br>";
+                            echo "Ocupación: $ocupacion<br>";
+                            echo "<h1>CONTACTO</h1>";
+                            echo "Contacto: $contacto<br>";
+                            echo "<h1>NACIONALIDAD</h1>";
+                            echo "Nacionalidad: $nacionalidad<br>";
+                            echo "<h1>NIVEL DE INGLES</h1>";
+                            echo "Nivel de ingles: $ingles<br>";
+
+                            //Mostrar los lenguajes selesccionados
+                            if (!empty($lenguajes)) 
+                            {
+                                echo "<h1>LENGUAJES DE PROGRAMACION</h1>";
+                                echo "Lenguajes de programación: " .implode(", " ,$lenguajes)."<br>";
+                            }
+                            else
+                            {
+                                echo "No seleccionaste lenguajes de programacion <br>";
+                            }
+
+                            echo "<h1>APTITUDES </h1>";
+                            echo "Aptitud seleccionada: $aptitud<br>";
+
+                            //Mostrar las habilidades seleccionadas
+                            if (!empty($habilidades)) 
+                            {
+                                echo "<h1>HABILIDADES</h1>";
+                                echo "Habilidades: " . implode(",",$habilidades)."<br>";
+                            }
+                            else
+                            {
+                                echo "No seleccionaste habilidades";
+                            }
+                        }
+                    }
+
+                    ?>           
                 </div>
             </div>
             <div class="espacio_vacio">
