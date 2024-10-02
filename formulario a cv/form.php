@@ -100,6 +100,7 @@
             <div class="recuadro_info">    
                 <div class="contenedor">
                     <?php
+
                     if ($_SERVER["REQUEST_METHOD"] =="POST") 
                     {
                         //recoge los datos del formulario
@@ -156,9 +157,10 @@
                             {
                                 echo "No seleccionaste habilidades";
                             }
+
+                            
                         }
                     }
-
                     ?>           
                 </div>
             </div>
