@@ -1,0 +1,49 @@
+body
+{
+    background-color: rgb(242, 255, 0);
+    text-align: center;
+}
+h1
+{
+    font-size: 32px;
+    color: blueviolet;
+}
+h2
+{
+    font-size: 16px;
+    color: blue;
+}
+ol
+{
+    list-style-position: inside;
+    display: inline-block;
+    text-align: left;
+    padding-left: 0;
+    margin-top: 20px;
+}
+li
+{
+    margin: 15px 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30px;
+}
+input[type="checkbox"]
+{
+    margin-right: 10px;
+}
+.botoneliminar
+{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botoneliminar-hover
+{
+    background-color: cadetblue;
+}
