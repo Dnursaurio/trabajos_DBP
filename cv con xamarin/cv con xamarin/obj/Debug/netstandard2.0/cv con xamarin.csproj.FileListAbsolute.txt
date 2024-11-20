@@ -1,0 +1,16 @@
+C:\xampp\htdocs\trabajos_DBP\cv con xamarin\cv con xamarin\bin\Debug\netstandard2.0\cv con xamarin.deps.json
+C:\xampp\htdocs\trabajos_DBP\cv con xamarin\cv con xamarin\bin\Debug\netstandard2.0\cv con xamarin.dll
+C:\xampp\htdocs\trabajos_DBP\cv con xamarin\cv con xamarin\bin\Debug\netstandard2.0\ref\cv con xamarin.dll
+C:\xampp\htdocs\trabajos_DBP\cv con xamarin\cv con xamarin\bin\Debug\netstandard2.0\cv con xamarin.pdb
+C:\xampp\htdocs\trabajos_DBP\cv con xamarin\cv con xamarin\obj\Debug\netstandard2.0\cv con xamarin.csproj.AssemblyReference.cache
+C:\xampp\htdocs\trabajos_DBP\cv con xamarin\cv con xamarin\obj\Debug\netstandard2.0\cv con xamarin.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\trabajos_DBP\cv con xamarin\cv con xamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\xampp\htdocs\trabajos_DBP\cv con xamarin\cv con xamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\xampp\htdocs\trabajos_DBP\cv con xamarin\cv con xamarin\obj\Debug\netstandard2.0\cv con xamarin.AssemblyInfoInputs.cache
+C:\xampp\htdocs\trabajos_DBP\cv con xamarin\cv con xamarin\obj\Debug\netstandard2.0\cv con xamarin.AssemblyInfo.cs
+C:\xampp\htdocs\trabajos_DBP\cv con xamarin\cv con xamarin\obj\Debug\netstandard2.0\cv con xamarin.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\trabajos_DBP\cv con xamarin\cv con xamarin\obj\Debug\netstandard2.0\cv con xamarin.sourcelink.json
+C:\xampp\htdocs\trabajos_DBP\cv con xamarin\cv con xamarin\obj\Debug\netstandard2.0\XamlC.stamp
+C:\xampp\htdocs\trabajos_DBP\cv con xamarin\cv con xamarin\obj\Debug\netstandard2.0\cv con xamarin.dll
+C:\xampp\htdocs\trabajos_DBP\cv con xamarin\cv con xamarin\obj\Debug\netstandard2.0\refint\cv con xamarin.dll
+C:\xampp\htdocs\trabajos_DBP\cv con xamarin\cv con xamarin\obj\Debug\netstandard2.0\cv con xamarin.pdb

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cv_con_xamarin.MainPage">
+
+    <!-- Usamos un Grid para organizar todo -->
+    <Grid Padding="10">
+        <!-- Definimos dos filas en el Grid -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Fila para el recuadro gris principal -->
+            <RowDefinition Height="*"/>
+            <!-- Fila para el recuadro gris claro -->
+        </Grid.RowDefinitions>
+
+        <!-- Definimos dos columnas en el Grid -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Primer recuadro gris con tu nombre, en la primera fila, ocupando ambas columnas -->
+        <Frame BackgroundColor="Gray" Padding="24" CornerRadius="0" HorizontalOptions="FillAndExpand" Grid.Row="0" Grid.ColumnSpan="2">
+            <Label Text="ALONZO ESTEFANO CUELA RODRIGUEZ" HorizontalTextAlignment="Center" TextColor="Black" FontSize="24"/>
+        </Frame>
+
+        <!-- Segundo recuadro gris claro, debajo del primero, en la primera columna -->
+        
+        <Frame BackgroundColor="LightGray" Padding="24" CornerRadius="0" HorizontalOptions="Start" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0">
+            <ScrollView>
+                <StackLayout>
+                    <Label Text="CONTACTO" FontSize="12" HorizontalTextAlignment="Center" TextColor="Black"/>
+                    <BoxView HeightRequest="2" BackgroundColor="Black" HorizontalOptions="FillAndExpand" Margin="0,5,0,0"/>
+                    <Label Text="Telefono/Celular: +51 955 124 818" FontSize="8" Padding="10,5"/>
+                    <Label Text="Correo: alonzo.cuela@ucsp.edu.pe" FontSize="8" Padding="10,5"/>
+                    <Label Text="Ciudad/País: AQP-Perú" FontSize="8" Padding="10,5"/>
+                    <Label Text="LinkedIn: LinkedIn.com/alonzo-cuela" FontSize="8" Padding="10,5"/>
+                    <Label Text="PaginaWeb Personal: Skull33.github.io" FontSize="8" Padding="10,5"/>
+                    <Label Text="IDIOMAS" FontSize="12" HorizontalTextAlignment="Center" TextColor="Black"/>
+                    <BoxView HeightRequest="2" BackgroundColor="Black" HorizontalOptions="FillAndExpand" Margin="0,5,0,0"/>
+                    <Label Text="Español: Nativo" FontSize="8" Padding="10,5"/>
+                    <Label Text="Ingles: FCE-B2" FontSize="8" Padding="10,5"/>
+                    <Label Text="APTITUDES" FontSize="12" HorizontalTextAlignment="Center" TextColor="Black"/>
+                    <BoxView HeightRequest="2" BackgroundColor="Black" HorizontalOptions="FillAndExpand" Margin="0,5,0,0"/>
+                    <Label Text="Inteligencia emocional" FontSize="8" Padding="10,5"/>
+                    <Label Text="Creatividad" FontSize="8" Padding="10,5"/>
+                    <Label Text="Disciplina" FontSize="8" Padding="10,5"/>
+                    <Label Text="Puntualidad" FontSize="8" Padding="10,5"/>
+                    <Label Text="Trabajo en equipo" FontSize="8" Padding="10,5"/>
+                    <Label Text="HABILIDADES" FontSize="12" HorizontalTextAlignment="Center" TextColor="Black"/>
+                    <BoxView HeightRequest="2" BackgroundColor="Black" HorizontalOptions="FillAndExpand" Margin="0,5,0,0"/>
+                    <Label Text="Graphic Computing" FontSize="8" Padding="10,5"/>
+                    <Label Text="Game Development" FontSize="8" Padding="10,5"/>
+                    <Label Text="Web Development" FontSize="8" Padding="10,5"/>
+                    <Label Text="Game Testing" FontSize="8" Padding="10,5"/>
+                    <Label Text="OTROS INTERESES" FontSize="12" HorizontalTextAlignment="Center" TextColor="Black"/>
+                    <BoxView HeightRequest="2" BackgroundColor="Black" HorizontalOptions="FillAndExpand" Margin="0,5,0,0"/>
+                    <Label Text="Deportes" FontSize="8" Padding="10,5"/>
+                    <Label Text="Desarrollo de videojuegos" FontSize="8" Padding="10,5"/>
+                    <Label Text="Dibujo" FontSize="8" Padding="10,5"/>
+                </StackLayout>
+            </ScrollView>
+           
+        </Frame>
+
+        <!-- Texto a la derecha del recuadro gris claro, debajo del recuadro con nombre -->
+        <Frame Grid.Row="1" Grid.Column="1" Padding="0" HasShadow="False">
+            <ScrollView>
+                <StackLayout Padding="30,10,30,10">
+                    <Label Text="PERFIL" FontSize="14" HorizontalTextAlignment="Center" TextColor="Black"/>
+                    <BoxView HeightRequest="2" BackgroundColor="Black" HorizontalOptions="FillAndExpand" Margin="0,5,0,0"/>
+                    <Label Text="Desarrollador de videojuegos con 2 años de experiencia, capacitado en el motor gráfico UnityEngine. 
+                   Mi objetivo a lograr es que otros creadores independientes en la industria puedan publicar sus creaciones sin impedimentos de pago." FontSize="10" Padding="10,5"/>
+                    <Label Text="EXPERIENCIA LABORAL" FontSize="14" HorizontalTextAlignment="Center" TextColor="Black"/>
+                    <BoxView HeightRequest="2" BackgroundColor="Black" HorizontalOptions="FillAndExpand" Margin="0,5,0,0"/>
+                    <Label Text="Desarrollador de videojuegos" FontSize="12" FontAttributes="Bold" Padding="10,5" TextColor="Black"/>
+                    <Label Text="AQP-Perú" FontSize="10" Padding="10,5"/>
+                    <Label Text="Lider creativo del proyecto WelcomeBack, un videojuego pequeño que ganó el primer premio en la UCSP 
+                           ComputerScienceDepartment GameJam donde se realizó una lluvia de ideas para hacer un juego pequeño y simple, pero divertido y funcional." FontSize="10" Padding="10,5"/>
+                    <Label Text="Desarrollador de videojuegos" FontSize="12" FontAttributes="Bold" Padding="10,5" TextColor="Black"/>
+                    <Label Text="AQP-Perú" FontSize="10" Padding="10,5"/>
+                    <Label Text="Desarrollo independiente del juego wev Trapped In Dungeons, un videojuego pequeño realizado que puedes 
+                           encontrar en mi pagina web personal con el prpoposito de divertir a los usuarios y además ver las capacidadeas del RayCasting." FontSize="10" Padding="10,5"/>
+                    <Label Text="Desarrollador web" FontSize="12" FontAttributes="Bold" Padding="10,5" TextColor="Black"/>
+                    <Label Text="AQP-Perú" FontSize="10" Padding="10,5"/>
+                    <Label Text="Desarrollo de paginas web en pequeños trabajos universitarios aparte de mi pagina personal 
+                           que puedes encontrar en em recuadro de información adjunto a la izquierda." FontSize="10" Padding="10,5"/>
+                    <Label Text="FORMACION" FontSize="14" HorizontalTextAlignment="Center" TextColor="Black"/>
+                    <BoxView HeightRequest="2" BackgroundColor="Black" HorizontalOptions="FillAndExpand" Margin="0,5,0,0"/>
+                    <Label Text="Formación Basica" FontSize="12" FontAttributes="Bold" Padding="10,5" TextColor="Black"/>
+                    <Label Text="IEP: Rey de Reyes" FontSize="10" Padding="10,5"/>
+                    <Label Text="Formación Superior" FontSize="12" FontAttributes="Bold" Padding="10,5" TextColor="Black"/>
+                    <Label Text="Universidad Católica San Pablo(UCSP)" FontSize="10" Padding="10,5"/>
+                </StackLayout>
+            </ScrollView>
+        </Frame>
+
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,16 @@
+C:\xampp\htdocs\trabajos_DBP\formulario a cv con xamarin\formulario a cv con xamarin\obj\Debug\netstandard2.0\formulario a cv con xamarin.csproj.AssemblyReference.cache
+C:\xampp\htdocs\trabajos_DBP\formulario a cv con xamarin\formulario a cv con xamarin\obj\Debug\netstandard2.0\formulario a cv con xamarin.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\trabajos_DBP\formulario a cv con xamarin\formulario a cv con xamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\xampp\htdocs\trabajos_DBP\formulario a cv con xamarin\formulario a cv con xamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\xampp\htdocs\trabajos_DBP\formulario a cv con xamarin\formulario a cv con xamarin\obj\Debug\netstandard2.0\formulario a cv con xamarin.AssemblyInfoInputs.cache
+C:\xampp\htdocs\trabajos_DBP\formulario a cv con xamarin\formulario a cv con xamarin\obj\Debug\netstandard2.0\formulario a cv con xamarin.AssemblyInfo.cs
+C:\xampp\htdocs\trabajos_DBP\formulario a cv con xamarin\formulario a cv con xamarin\obj\Debug\netstandard2.0\formulario a cv con xamarin.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\trabajos_DBP\formulario a cv con xamarin\formulario a cv con xamarin\obj\Debug\netstandard2.0\formulario a cv con xamarin.sourcelink.json
+C:\xampp\htdocs\trabajos_DBP\formulario a cv con xamarin\formulario a cv con xamarin\bin\Debug\netstandard2.0\formulario a cv con xamarin.deps.json
+C:\xampp\htdocs\trabajos_DBP\formulario a cv con xamarin\formulario a cv con xamarin\bin\Debug\netstandard2.0\formulario a cv con xamarin.dll
+C:\xampp\htdocs\trabajos_DBP\formulario a cv con xamarin\formulario a cv con xamarin\bin\Debug\netstandard2.0\ref\formulario a cv con xamarin.dll
+C:\xampp\htdocs\trabajos_DBP\formulario a cv con xamarin\formulario a cv con xamarin\bin\Debug\netstandard2.0\formulario a cv con xamarin.pdb
+C:\xampp\htdocs\trabajos_DBP\formulario a cv con xamarin\formulario a cv con xamarin\obj\Debug\netstandard2.0\XamlC.stamp
+C:\xampp\htdocs\trabajos_DBP\formulario a cv con xamarin\formulario a cv con xamarin\obj\Debug\netstandard2.0\formulario a cv con xamarin.dll
+C:\xampp\htdocs\trabajos_DBP\formulario a cv con xamarin\formulario a cv con xamarin\obj\Debug\netstandard2.0\refint\formulario a cv con xamarin.dll
+C:\xampp\htdocs\trabajos_DBP\formulario a cv con xamarin\formulario a cv con xamarin\obj\Debug\netstandard2.0\formulario a cv con xamarin.pdb
